@@ -72,3 +72,6 @@
       * VM 은 자체 커널을 실행하기 때문에 이런 제약 없음
     * x86 아키텍처용 애플리케이션을 ARM 기반 컴퓨터에서 실행 불가능
       * VM 은 가능 
+  * Docker 가 K8s 의 Kubelet 에서 지원하는 유일한 CRI(Container Runtime Interface)는 아님
+    * [참고](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+    * K8s 는 단순히 컨테이너 오케스트레이션 시스템이 아니라 그 이상임
